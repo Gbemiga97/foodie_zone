@@ -9,8 +9,8 @@ import Biryani_Cover from '../assets/biryani_cover.jpg'
 import Mobile_Bike from '../assets/mobile_bike.gif'
 import Play_store from '../assets/play_store.png'
 import Vector3 from '../assets/vector3.png'
-
-
+import DarkModeBtn from '../assets/website/dark-mode-button.png'
+import LightModeBtn from '../assets/website/light-mode-button.png'
 
 const images = {
     Food_logo,
@@ -23,7 +23,9 @@ const images = {
     Biryani_Cover,
     Mobile_Bike,
     Play_store,
-    Vector3
+    Vector3,
+    DarkModeBtn,
+    LightModeBtn
 }
 
 
