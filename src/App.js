@@ -1,11 +1,13 @@
 import { Navbar } from "./components";
-import { Hero } from "./sections";
+import { Hero, Services } from "./sections";
+
 
 function App() {
   return (
     <>
     <Navbar />
     <Hero />
+    <Services />
     </>
   );
 }

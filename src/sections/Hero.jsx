@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { data, images } from "../../utils"
+import { images, data } from "../utils"
+
 
 
 

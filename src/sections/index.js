@@ -1,7 +1,9 @@
-import Hero from "./Hero/Hero";
+import Hero from "./Hero";
+import Services from './Services'
 
 
 
 export {
-    Hero
+    Hero,
+    Services
 }

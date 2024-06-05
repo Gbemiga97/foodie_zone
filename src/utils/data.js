@@ -26,10 +26,33 @@ const bgImage = {
 }
 
 
+const servicesData = [
+    {
+        id: 1,
+        img: images.Biryani2,
+        name: "Biryani",
+        desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, accusantium eius doloribus illo tempora ullam"
+    },
+    {
+        id: 2,
+        img: images.Biryani2,
+        name: "Chicken Kari",
+        desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, accusantium eius doloribus illo tempora ullam"
+    },
+    {
+        id: 3,
+        img: images.Biryani2,
+        name: "Cold Coffee",
+        desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, accusantium eius doloribus illo tempora ullam"
+    },
+] 
+
+
 
 const data = {
     imageList,
-    bgImage
+    bgImage,
+    servicesData
 }
 
 
