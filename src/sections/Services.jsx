@@ -18,7 +18,7 @@ const Services = () => {
             </div>
             {/* Cards */}
             <div>
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-5 place-items-center'>
                     {
                         data.servicesData.map(({id, name, img, desc}) => (
                             <div key={id} className='max-w-[300px] group rounded-2xl bg-white dark:bg-gray-800
