@@ -11,6 +11,10 @@ import Play_store from '../assets/play_store.png'
 import Vector3 from '../assets/vector3.png'
 import DarkModeBtn from '../assets/website/dark-mode-button.png'
 import LightModeBtn from '../assets/website/light-mode-button.png'
+import Jane from '../assets/jane.webp'
+import Samuel from '../assets/samuel.webp'
+import Smith from '../assets/smith.webp'
+
 
 const images = {
     Food_logo,
@@ -25,7 +29,10 @@ const images = {
     Play_store,
     Vector3,
     DarkModeBtn,
-    LightModeBtn
+    LightModeBtn,
+    Jane,
+    Samuel,
+    Smith
 }
 
 

@@ -48,11 +48,34 @@ const servicesData = [
 ] 
 
 
+const testimonialData = [
+    {
+        id: 1,
+        name: 'Samuel',
+        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, dolores ipsa deserunt veniam voluptas ratione ullam eos eum exercitationem voluptatem ducimus ea sequi velit laboriosam alias repellat sed dolore magnam.",
+        img: images.Samuel
+    },
+    {
+        id: 2,
+        name: 'Jane',
+        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, dolores ipsa deserunt veniam voluptas ratione ullam eos eum exercitationem voluptatem ducimus ea sequi velit laboriosam alias repellat sed dolore magnam.",
+        img: images.Jane
+    },
+    {
+        id: 1,
+        name: 'Smith',
+        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, dolores ipsa deserunt veniam voluptas ratione ullam eos eum exercitationem voluptatem ducimus ea sequi velit laboriosam alias repellat sed dolore magnam.",
+        img: images.Smith
+    },
+]
+
+
 
 const data = {
     imageList,
     bgImage,
-    servicesData
+    servicesData,
+    testimonialData
 }
 
 

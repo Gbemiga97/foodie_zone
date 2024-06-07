@@ -1,5 +1,5 @@
 import { Navbar } from "./components";
-import { AppStore, Banner, Hero, Services } from "./sections";
+import { AppStore, Banner, Hero, Services, Testimonial } from "./sections";
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <Services />
     <Banner />
     <AppStore />
+    <Testimonial />
     </div>
   );
 }
