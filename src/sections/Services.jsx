@@ -22,7 +22,7 @@ const Services = () => {
                     {
                         data.servicesData.map(({id, name, img, desc}) => (
                             <div key={id} className='max-w-[300px] group rounded-2xl bg-white dark:bg-gray-800
-                            hover:bg-primary hover:text-white duration-300 p-4 shadow-xl '>
+                            hover:bg-primary dark:hover:bg-primary hover:text-white duration-300 p-4 shadow-xl '>
                                 <div 
                                 className='h-[100px]'
                                 >

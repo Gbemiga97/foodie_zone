@@ -33,13 +33,13 @@ const Testimonial = () => {
                  }}
                  loop={true}
                  modules={[Pagination, Autoplay]}
-                 className="max-w-2xl h-[300px]"
+                 className=" max-w-full h-[320px]"
                  >
                     {
                         data.testimonialData.map(({id, name, text, img}) => (
                             <SwiperSlide key={id}>
                                 <div className="flex flex-col justify-center items-center gap-4 text-center 
-                                shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative">
+                                shadow-lg p-4 mx-auto rounded-xl dark:bg-gray-800 bg-primary/10 relative">
                                     <img src={img} alt={name} 
                                     className="rounded-full block mx-auto  h-24 "
                                     />
